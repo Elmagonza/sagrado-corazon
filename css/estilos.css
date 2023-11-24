@@ -188,6 +188,18 @@ background-position: center ;
     border-radius: 5px;
 }
 
+@keyframes aparecer{
+    0%{opacity: 0;visibility: hidden;}
+    100% {opacity: 1;visibility: visible;}
+
+}
+.mensaje-inicio{
+    animation-name: aparecer;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+
 .alentador{
     display: flex;
     align-items: center;
